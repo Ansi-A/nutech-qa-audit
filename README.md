@@ -8,7 +8,7 @@ This project is a complete manual QA audit of the **NUTECH University** websites
 
 - 🔧 Type: Manual QA Testing (Black-box)
 - 🖥 Websites: `https://nutech.edu.pk`, `https://skills.nutech.edu.pk`
-- 🐞 Total Bugs Reported: **60+**
+- 🐞 Total Bugs Reported: **40+**
 - 💥 Error Types: `404`, `Timeout`, `Bad Host`, `Localhost Exposure`
 - 🧪 Testing Tools: Browser, Excel, Screenshot Tools
 - 🧾 Reported: Structured Excel + PDF Report
