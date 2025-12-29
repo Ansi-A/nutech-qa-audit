@@ -1,7 +1,7 @@
 # 🔍 NUTECH University QA Web Audit
 
 This project is a complete manual QA audit of the **NUTECH University** websites, uncovering and documenting over **40+ broken or non-functional links**, including internal IP exposures, 404s, timeouts, and bad host errors.
-
+Check the report here : `https://docs.google.com/spreadsheets/d/1r0q2uzRVwmxJRXWalnWKldRG1vjrlYPoNcKFNa1vr4g/edit?usp=sharing`
 ---
 
 ## 📌 Project Summary
