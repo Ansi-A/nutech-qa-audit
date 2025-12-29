@@ -1,72 +1,73 @@
-# 🔍 NUTECH University QA Web Audit
+# 🔍 NUTECH University – QA Web Audit
 
-This project is a complete manual QA audit of the **NUTECH University** websites, uncovering and documenting over **40+ broken or non-functional links**, including internal IP exposures, 404s, timeouts, and bad host errors.
-Check the report here : `https://docs.google.com/spreadsheets/d/1r0q2uzRVwmxJRXWalnWKldRG1vjrlYPoNcKFNa1vr4g/edit?usp=sharing`
+This project is a **complete manual QA audit** of the **NUTECH University** websites.  
+The audit identifies and documents **40+ broken or non-functional links**, including internal IP exposures, `404` errors, timeouts, and bad host issues.
+
+📊 **Audit Report (Google Sheet):**  
+https://docs.google.com/spreadsheets/d/1r0q2uzRVwmxJRXWalnWKldRG1vjrlYPoNcKFNa1vr4g/edit?usp=sharing
+
 ---
 
 ## 📌 Project Summary
 
-- 🔧 Type: Manual QA Testing (Black-box)
-- 🖥 Websites: `https://nutech.edu.pk`, `https://skills.nutech.edu.pk`
-- 🐞 Total Bugs Reported: **40+**
-- 💥 Error Types: `404`, `Timeout`, `Bad Host`, `Localhost Exposure`
-- 🧪 Testing Tools: Browser, Excel, Screenshot Tools
-- 🧾 Reported: Structured Excel + PDF Report
-- 📸 Evidence: Screenshots of each bug
+- 🔧 **Type:** Manual QA Testing (Black-Box)
+- 🖥 **Websites Audited:**  
+  - https://nutech.edu.pk  
+  - https://skills.nutech.edu.pk
+- 🐞 **Total Bugs Reported:** 40+
+- 💥 **Error Types Identified:**  
+  `404`, `Timeout`, `Bad Host`, `Localhost / Internal IP Exposure`
+- 🧪 **Testing Tools Used:**  
+  Web Browser, Excel, Screenshot Tools
+- 🧾 **Reporting Format:**  
+  Structured Excel Sheet + PDF Report
+- 📸 **Evidence:**  
+  Screenshots provided for each reported issue
 
 ---
 
 ## 📄 Deliverables
 
 | File | Description |
-|------|-------------|
-| `bug_log.xlsx` | Full bug list with steps to reproduce |
-| `QA_Report_NUTECH.pdf` | Final audit report (PDF format) |
-| `screenshots/` | Screenshots for each test case |
-| `README.md` | GitHub summary |
-| `LICENSE` | MIT license for sharing |
+|------|------------|
+| `bug_log.xlsx` | Complete bug list with steps to reproduce |
+| `QA_Report_NUTECH.pdf` | Final audit report in PDF format |
+| `screenshots/` | Screenshots for every reported bug |
+| `README.md` | Project overview |
+| `LICENSE` | MIT License |
 
 ---
 
 ## 📊 Bug Sample (TC-001)
 
 | Field | Value |
-|-------|-------|
-| Bug ID | TC-001 |
-| Page URL | https://skills.nutech.edu.pk |
-| Broken Link | https://skills.nutech.edu.pk/weekend-grid.php |
-| Link Purpose | Weekend Courses |
-| Steps | Click the link or navigate manually |
-| Expected Result | Page should load normally |
-| Actual Result | TIMEOUT error |
-| Error Type | TIMEOUT |
-| Severity | Medium |
-| Suggested Fix | Check server or DNS configuration |
+|------|------|
+| **Bug ID** | TC-001 |
+| **Page URL** | https://skills.nutech.edu.pk |
+| **Broken Link** | https://skills.nutech.edu.pk/weekend-grid.php |
+| **Link Purpose** | Weekend Courses |
+| **Steps to Reproduce** | Click the link or navigate manually |
+| **Expected Result** | Page loads successfully |
+| **Actual Result** | TIMEOUT error |
+| **Error Type** | TIMEOUT |
+| **Severity** | Medium |
+| **Suggested Fix** | Check server availability or DNS configuration |
 
 ---
 
 ## 📁 Screenshots
 
-Each bug has a screenshot in `/screenshots` folder.
-
----
-
-## 📌 How I’d Use This
-
-✅ Freelancing QA gigs (web audits)  
-✅ Job interviews for QA roles  
-✅ Personal portfolio on GitHub or resume
+Each reported issue includes a screenshot stored in the `/screenshots` directory for verification and evidence.
 
 ---
 
 ## 👤 Author
 
 **Muhammad Salman**  
-Manual & Automation QA Tester |  
-
+Manual & Automation QA Tester
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
