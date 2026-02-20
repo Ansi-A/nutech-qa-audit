@@ -1,77 +1,145 @@
-# 🔍 NUTECH University – QA Web Audit
+# 🔍 NUTECH University – Website QA Audit & Defect Report
 
-This project is a **complete manual QA audit** of the **NUTECH University** websites.  
-The audit identifies and documents **40+ broken or non-functional links**, including internal IP exposures, `404` errors, timeouts, and bad host issues.
+A comprehensive **manual QA audit** conducted on official NUTECH University websites to identify functional defects, broken links, and potential exposure risks.
 
-📊 **Audit Report (Google Sheet):**  
-https://docs.google.com/spreadsheets/d/1r0q2uzRVwmxJRXWalnWKldRG1vjrlYPoNcKFNa1vr4g/edit?usp=sharing
-
-<img width="1865" height="883" alt="image" src="https://github.com/user-attachments/assets/8e8c9a2c-57ae-4aab-bc31-978e8c4a210b" />
-
-<img width="1869" height="336" alt="image" src="https://github.com/user-attachments/assets/0496ecb8-b3b9-4007-9fc2-8cebbaeffb5f" />
+This audit resulted in the identification of **40+ critical and medium-impact issues**, all formally documented and reported to the university’s ICT department. The reported issues were acknowledged and subsequently resolved.
 
 ---
 
-## 📌 Project Summary
+## 🎯 Project Objective
 
-- 🔧 **Type:** Manual QA Testing (Black-Box)
-- 🖥 **Websites Audited:**  
-  - https://nutech.edu.pk  
-  - https://skills.nutech.edu.pk
-- 🐞 **Total Bugs Reported:** 40+
-- 💥 **Error Types Identified:**  
-  `404`, `Timeout`, `Bad Host`, `Localhost / Internal IP Exposure`
-- 🧪 **Testing Tools Used:**  
-  Web Browser, Excel, Screenshot Tools
-- 🧾 **Reporting Format:**  
-  Structured Excel Sheet + PDF Report
-- 📸 **Evidence:**  
-  Screenshots provided for each reported issue
+To evaluate the reliability, accessibility, and functional integrity of publicly accessible university web portals using structured manual testing techniques and professional defect reporting standards.
+
+---
+
+## 🌐 Websites Audited
+
+- https://nutech.edu.pk  
+- https://skills.nutech.edu.pk  
+
+---
+
+## 📊 Audit Summary
+
+- **Testing Type:** Manual QA (Black-Box Testing)  
+- **Total Issues Identified:** 40+  
+- **Error Categories:**
+  - 404 (Page Not Found)
+  - Server Timeout
+  - Bad Host Configuration
+  - Internal IP / Localhost Exposure
+  - Broken Navigation Links
+- **Evidence:** Screenshot provided for every reported issue  
+- **Reporting Format:** Structured Excel Bug Log + Formal PDF Audit Report
+
+  ## 📊 Bug Log Preview
+
+The screenshot below demonstrates:
+
+- Structured defect tracking
+- Severity classification (Critical / High / Medium)
+- Clear reproduction steps
+- Suggested fixes
+- Issue resolution status (Closed)
+
+<img width="1606" height="543" alt="image" src="https://github.com/user-attachments/assets/42805d36-f6b4-4189-a2d9-757d89a30085" />
+
+<img width="1774" height="550" alt="image" src="https://github.com/user-attachments/assets/7512e8bd-b3e5-41a7-9112-fdb9ac0fa9f1" />
+
+
+
+
+Full detailed log available in `NUTECH_QA_Broken_Links_Report_All_ - NUTECH_QA_Broken_Links_Report_All_60.csv.pdf` or the link :-
+
+https://docs.google.com/spreadsheets/d/1r0q2uzRVwmxJRXWalnWKldRG1vjrlYPoNcKFNa1vr4g/edit?usp=sharing
+  
+
+---
+
+## 🧠 Testing Approach
+
+- Manual navigation testing across all accessible pages
+- Link integrity validation
+- Identification of internal IP and localhost exposures
+- Error classification and severity tagging
+- Clear documentation of reproducible steps
+- Structured bug logging for developer clarity
+
+---
+
+## 🛠 Tools Used
+
+- Web Browser (Chrome / Firefox)
+- Microsoft Excel (Bug Tracking & Logging)
+- Screenshot Capture Tools
+- PDF Report Documentation
 
 ---
 
 ## 📄 Deliverables
 
 | File | Description |
-|------|------------|
-| `bug_log.xlsx` | Complete bug list with steps to reproduce |
-| `QA_Report_NUTECH.pdf` | Final audit report in PDF format |
-| `screenshots/` | Screenshots for every reported bug |
-| `README.md` | Project overview |
-| `LICENSE` | MIT License |
+|------|-------------|
+| bug_log.xlsx | Complete bug list with reproduction steps |
+| QA_Report_NUTECH.pdf | Formal structured audit report |
+| screenshots/ | Screenshot evidence for each reported defect |
+| README.md | Project documentation |
 
 ---
 
-## 📊 Bug Sample (TC-001)
+## 🐞 Bug Report Format 
 
-| Field | Value |
-|------|------|
-| **Bug ID** | TC-001 |
-| **Page URL** | https://skills.nutech.edu.pk |
-| **Broken Link** | https://skills.nutech.edu.pk/weekend-grid.php |
-| **Link Purpose** | Weekend Courses |
-| **Steps to Reproduce** | Click the link or navigate manually |
-| **Expected Result** | Page loads successfully |
-| **Actual Result** | TIMEOUT error |
-| **Error Type** | TIMEOUT |
-| **Severity** | Medium |
-| **Suggested Fix** | Check server availability or DNS configuration |
+**Bug ID:** TC-001  
+**Affected Page:** https://skills.nutech.edu.pk  
+**Broken Link:** /weekend-grid.php  
+**Issue Type:** Server Timeout  
+**Severity:** Medium  
+
+### Steps to Reproduce:
+1. Navigate to the Skills Portal  
+2. Click on “Weekend Courses”  
+3. Observe page loading failure  
+
+**Expected Result:** Page loads successfully  
+**Actual Result:** Timeout error  
+
+**Suggested Fix:** Verify DNS configuration and server availability.
 
 ---
 
-## 📁 Screenshots
+## 📬 Official Acknowledgement
 
-Each reported issue includes a screenshot stored in the `/screenshots` directory for verification and evidence.
+The identified issues were formally reported to the NUTECH ICT department.
+
+The ICT Office confirmed that the reported broken links were updated and appreciated the initiative in improving system reliability.
+
+Screenshot of official email confirmation attached in repository.
+
+<img width="1563" height="427" alt="image" src="https://github.com/user-attachments/assets/7e1be0fd-3b21-48cb-af03-41282cb1b7a5" />
+
+
+---
+
+## 🚀 Impact
+
+This project demonstrates:
+
+- Strong manual testing fundamentals
+- Structured defect documentation
+- Real-world issue identification
+- Clear communication with stakeholders
+- Initiative beyond academic requirements
+- Practical understanding of web system reliability
 
 ---
 
 ## 👤 Author
 
-**Muhammad Salman**  
-Manual & Automation QA Tester
+Muhammad Salman  
+QA Automation & Manual Testing Enthusiast  
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
