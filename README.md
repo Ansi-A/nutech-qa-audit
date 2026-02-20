@@ -136,7 +136,7 @@ This project demonstrates:
 ## 👤 Author
 
 Muhammad Salman  
-QA Automation & Manual Testing Enthusiast  
+QA Automation & Manual Testing 
 
 ---
 
