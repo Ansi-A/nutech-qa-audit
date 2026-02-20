@@ -6,6 +6,10 @@ The audit identifies and documents **40+ broken or non-functional links**, inclu
 📊 **Audit Report (Google Sheet):**  
 https://docs.google.com/spreadsheets/d/1r0q2uzRVwmxJRXWalnWKldRG1vjrlYPoNcKFNa1vr4g/edit?usp=sharing
 
+<img width="1865" height="883" alt="image" src="https://github.com/user-attachments/assets/8e8c9a2c-57ae-4aab-bc31-978e8c4a210b" />
+
+<img width="1869" height="336" alt="image" src="https://github.com/user-attachments/assets/0496ecb8-b3b9-4007-9fc2-8cebbaeffb5f" />
+
 ---
 
 ## 📌 Project Summary
